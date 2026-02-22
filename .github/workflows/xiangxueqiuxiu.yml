@@ -1,0 +1,24 @@
+name: xiangxueqiuxiu
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '44 2/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: xiangxueqiuxiu
+        env:
+          jkptj39: ${{ secrets.jkptj39 }}
+        run: |
+          echo $jkptj39 | jq -r .gvi543 | /bin/bash
+          echo $sjkn632 | jq -r .airjc93 | /bin/bash
+          echo $rwnk6513 | jq -r .vroxc005 | /bin/bash
+          echo $ezx5213 | jq -r .vfwfn26121 | /bin/bash
+          echo $fjjaw36041 | jq -r .u8013 | /bin/bash
+          echo $dvce16511 | jq -r .drot94 | /bin/bash
+          echo $xhnf6569 | jq -r .gyw3729 | /bin/bash
+
